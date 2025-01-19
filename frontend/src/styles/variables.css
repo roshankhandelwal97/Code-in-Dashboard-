@@ -1,0 +1,17 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-bg: #f8f9fa;       /* Light background */
+    --color-text: #212529;     /* Dark text */
+    --color-primary: #2F80ED;  /* Example primary brand color */
+    --color-secondary: #A2A2A2; /* Secondary or neutral color */
+    --color-accent: #FF914D;   /* Accent color for highlights or warnings */
+  
+    /* Spacing scale (optional) */
+    --spacing-xxs: 4px;
+    --spacing-xs:  8px;
+    --spacing-sm:  12px;
+    --spacing-md:  16px;
+    --spacing-lg:  24px;
+    --spacing-xl:  32px;
+  }
+  

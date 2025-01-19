@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
+  button, a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  /* Basic utility classes (optional) */
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

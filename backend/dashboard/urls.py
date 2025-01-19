@@ -5,7 +5,8 @@ from .views import (
     BlockListCreateView,
     BlockRetrieveUpdateDestroyView,
     FileUploadView,
-    CodeExecutionView
+    CodeExecutionView,
+    CodeGenerateView
 )
 
 urlpatterns = [
@@ -15,5 +16,7 @@ urlpatterns = [
     path('blocks/<int:pk>/', BlockRetrieveUpdateDestroyView.as_view(), name='block-detail'),
     path('<int:dashboard_id>/upload/', FileUploadView.as_view(), name='file-upload'),
     path('blocks/<int:block_id>/run/', CodeExecutionView.as_view(), name='block-run'),
+    path('blocks/<int:block_id>/generate_code/', CodeGenerateView.as_view(), name='block-generate-code'),
+
 
 ]

@@ -1,0 +1,28 @@
+/* TextBlock.css */
+.text-block__content {
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .text-block__textarea {
+    width: 100%;
+    padding: var(--spacing-xs);
+    border: 1px solid var(--color-secondary);
+    border-radius: 4px;
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .text-block__controls button {
+    margin-right: var(--spacing-xs);
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: var(--spacing-xs) var(--spacing-md);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .text-block__controls button:hover {
+    opacity: 0.9;
+  }
+  

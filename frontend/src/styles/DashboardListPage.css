@@ -1,0 +1,60 @@
+/* DashboardListPage.css */
+.dashboard-list {
+    max-width: 600px;
+    margin: 0 auto; /* center content */
+    padding: var(--spacing-md);
+  }
+  
+  .dashboard-list__title {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .dashboard-list__items {
+    list-style: none;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .dashboard-list__item {
+    background-color: #fff;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
+    border: 1px solid var(--color-secondary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dashboard-list__item:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+  
+  .dashboard-list__create {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+  
+  .dashboard-list__input {
+    flex: 1;
+    padding: var(--spacing-xs);
+    border: 1px solid var(--color-secondary);
+    border-radius: 4px;
+  }
+  
+  .dashboard-list__button {
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .dashboard-list__button:hover {
+    opacity: 0.9;
+  }
+  
